@@ -1,0 +1,20 @@
+.navbar {
+  background-color: rgb(52, 3, 248);
+  border-bottom: 1px solid rgb(41, 1, 1);
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar li {
+  margin-right: 1em;
+}
+
+.navbar li a {
+  color: #000;
+  text-decoration: none;
+}
