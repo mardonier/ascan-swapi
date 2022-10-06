@@ -13,7 +13,7 @@ function Navbar() {
           <Link to="/personagens">Personagens</Link>
         </li>
         <li>
-          <Link to="/contact">Contato</Link>
+          <Link to="/naves">Naves</Link>
         </li>
         <li>
           <Link to="/planetas">Planetas</Link>

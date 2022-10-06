@@ -1,6 +1,10 @@
 function Planetas() {
-    return <h1>Planeta</h1>
+  return(
+    <section>
+        <h1>Planetas</h1>
+      </section>
+    )
   }
   
-  export default Planetas;
+  export default Planetas
   

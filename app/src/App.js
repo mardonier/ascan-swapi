@@ -1,16 +1,13 @@
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-} from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route,  } from 'react-router-dom'
 
 import Home from './components/pages/Home'
-import Users from './components/pages/Personagens'
-import Contact from './components/pages/Contact'
+import Personagens from './components/pages/Personagens'
+import Filmes from './components/pages/Filmes'
 import Planetas from './components/pages/Planetas'
+import Naves from './components/pages/Naves'
 
 import Navbar from './components/Navbar'
+
 
 
 function App() {
@@ -19,10 +16,10 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/users" element={<Users />} />
-        <Route path="/allusers" element={<Navigate to="/users" />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/planeta" element={<Planetas />} />
+        <Route path="/personagens" element={<Personagens />} />
+        <Route path="/filmes" element={<Filmes />} />
+        <Route path="/planetas" element={<Planetas />} />
+        <Route path="/naves" element={<Naves />} />
       </Routes>
     </Router>
   )

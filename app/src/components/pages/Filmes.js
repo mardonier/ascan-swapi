@@ -1,5 +1,9 @@
 function Filmes() {
-    return <h1>Filmes</h1>
+  return(
+    <section>
+        <h1>Filmes</h1>
+      </section>
+    )
   }
   
   export default Filmes;
