@@ -1,8 +1,8 @@
 function Naves() {
   return(
   <section>
-      <h1>Naves</h1>
-    </section>
+    <h1>Naves</h1>
+  </section>
   )
 }
 
